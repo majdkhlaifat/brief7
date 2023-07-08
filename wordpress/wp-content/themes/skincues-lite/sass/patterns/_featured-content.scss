@@ -1,0 +1,19 @@
+/* --- Block featured Content
+-------------------------------------------------------- */
+
+
+.wp-block-feature-content-default .wp-block-post-group .wp-block-image {
+    transition: all 0.4s;
+    overflow: hidden;
+}
+
+.wp-block-feature-content-default .wp-block-post-group:hover .wp-block-image {
+    transform: scale(1.03);
+}
+
+/* --- Block Hero Content
+-------------------------------------------------------- */
+
+.wp-block-hero-content.wp-block-section .wp-block-group-heading {
+    margin-bottom: 21px;
+}

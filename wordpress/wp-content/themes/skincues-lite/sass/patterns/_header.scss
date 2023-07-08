@@ -1,0 +1,147 @@
+
+
+/* --- Block Main Header
+-------------------------------------------------------- */
+
+.wp-block-navigation .wp-block-navigation-item__content {
+    text-decoration: none;
+}
+
+.wp-block-main-header .wp-block-social-links.is-style-logos-only .wp-social-link .wp-block-social-link-anchor {
+    border-radius: 50%;
+}
+
+.wp-block-main-header .wp-block-social-links.is-style-logos-only .wp-social-link .wp-block-social-link-anchor:hover {
+    background-color: var(--wp--preset--color--border-color);
+}
+
+.wp-block-main-header .wp-block-social-links.is-style-logos-only .wp-social-link .wp-block-social-link-anchor:hover svg {
+    color: var(--wp--preset--color--text-link);
+    fill: var(--wp--preset--color--text-link);
+}
+
+.wp-block-main-header ul.wp-block-social-links {
+    gap: 5px;
+}
+
+.wp-block-main-header .wp-block-social-link:hover {
+    transform: scale(1);
+}
+
+.wp-block-header {
+    border-bottom: 1px solid var(--wp--preset--color--border-color);
+}
+
+/* --- Block Header Dark
+-------------------------------------------------------- */
+
+/* For Editor To Go To FullWidth  */
+.block-editor-block-list__block.wp-block-header-primary {
+    margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+    margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+    padding-left: var(--wp--custom--spacing--outer);
+    padding-right: var(--wp--custom--spacing--outer);
+    width: unset;
+    margin-top: 0 !important;
+}
+
+.wp-block-header-media-primary .is-style-outline > .wp-block-button__link:not(.has-text-color),
+.wp-block-header-media-primary .wp-block-button__link.is-style-outline:not(.has-text-color) {
+    border-color: var(--wp--preset--color--primary-border);
+}
+
+.wp-block-header-media-primary .is-style-outline > .wp-block-button__link:not(.has-text-color):hover,
+.wp-block-header-media-primary .wp-block-button__link.is-style-outline:not(.has-text-color):hover {
+    border-color: transparent;
+}
+
+.wp-block-header-primary {
+    border-bottom: 1px solid var(--wp--preset--color--primary-border);
+}
+
+.header.wp-block-header-primary,
+.wp-block-header-primary .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
+    background-color: var(--wp--preset--color--primary);
+}
+
+.wp-block-header-primary .wp-block-navigation .wp-block-navigation__submenu-icon,
+.wp-block-header-primary .wc-block-mini-cart__button,
+.wp-block-header-primary .wp-block-woocommerce-customer-account a svg,
+.wp-block-header-primary .wp-block-site-title a,
+.wp-block-header-primary .wp-block-site-tagline,
+.wp-block-header-primary .wp-block-navigation .wp-block-navigation-item__content,
+.wp-block-header-primary .wp-block-navigation .wp-block-navigation-item__content:hover,
+.wp-block-header-primary .wp-block-navigation__responsive-container-open,
+.wp-block-header-primary .wp-block-navigation__responsive-container-close {
+    color: var(--wp--preset--color--color-light);
+}
+
+.wp-block-header-primary .wp-block-site-title a:hover,
+.wp-block-header-primary .wp-block-navigation .wp-block-navigation-item__content:hover {
+    opacity: 0.6;
+}
+
+.wp-block-header-primary .wp-search-toggle > .wp-block-image:hover,
+.wp-block-header-primary .wp-block-woocommerce-customer-account a:hover {
+    border-color: var(--wp--preset--color--color-light);
+}
+
+@media screen and (min-width: 1200px) {
+    .wp-block-header-primary .wp-block-navigation :where(.wp-block-navigation__submenu-container) .wp-block-navigation__submenu-icon {
+        color: var(--wp--preset--color--body-text);
+    }
+
+    .wp-block-header-primary .wp-block-navigation :where(.wp-block-navigation__submenu-container) .wp-block-navigation-item__content {
+        color: var(--wp--preset--color--body-text);
+    }
+
+    .wp-block-header-primary .wp-block-navigation :where(.wp-block-navigation__submenu-container) .wp-block-navigation-item__content:hover {
+        color: var(--wp--preset--color--primary);
+    }
+}
+
+.wp-block-header-media-primary {
+    .header-title-wrapper {
+        > * {
+            overflow: hidden;
+        }
+
+        >:nth-child(odd) {
+            animation: drop-in 1s ease 200ms backwards;
+        }
+
+        >:nth-child(even) {
+            animation: drop-in 1200ms ease 500ms backwards;
+        }
+    }
+    .wp-block-button {
+        animation: 900ms linear 0s 1 normal none running fade-in;
+    }
+}
+
+@keyframes drop-in {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    66% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+

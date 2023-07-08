@@ -1,0 +1,813 @@
+# <!=Copyright (C) 2023 Catch Themes
+# This file is distributed under the GNU General Public License v2 or later.=!>
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Skincues Lite\n"
+"Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
+"POT-Creation-Date: 2023-06-08 14:38-0700\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Catch Themes <info@catchthemes.com>\n"
+"Language-Team: Catch Themes <info@catchthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 3.3.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/about.php:27 inc/block-patterns.php:18 patterns/about.php:17
+msgid "Skincues Lite"
+msgstr ""
+
+#: inc/about.php:46
+msgid "Free Full Site Editing WordPress Theme"
+msgstr ""
+
+#: inc/about.php:54
+msgid "Getting Started with Skincues Lite!"
+msgstr ""
+
+#: inc/about.php:55
+msgid ""
+"Awesome! Skincues Lite has been installed and activated successfully. Now, "
+"you can start building your dream website with a wide range of highly-"
+"customizable block patterns, templates, and template parts available in this "
+"astounding theme."
+msgstr ""
+
+#: inc/about.php:56
+msgid "Theme instructions"
+msgstr ""
+
+#: inc/about.php:62
+msgid "More Features with Skincues Theme"
+msgstr ""
+
+#: inc/about.php:63
+msgid ""
+"To get more beautiful block patterns and templates, we recommend you upgrade "
+"to Skincues. With the premium theme installed, get more options, blocks, "
+"block patterns, templates and template parts."
+msgstr ""
+
+#: inc/about.php:64
+msgid "Buy Skincues"
+msgstr ""
+
+#: inc/about.php:73
+msgid "Important Links"
+msgstr ""
+
+#: inc/about.php:74
+msgid "Theme Info"
+msgstr ""
+
+#: inc/about.php:75
+msgid "View Demo"
+msgstr ""
+
+#: inc/about.php:76
+msgid "FSE FAQs"
+msgstr ""
+
+#: inc/about.php:77
+msgid "Change log"
+msgstr ""
+
+#: inc/about.php:78
+msgid "Support"
+msgstr ""
+
+#: inc/about.php:85
+msgid "Leave us a review"
+msgstr ""
+
+#: inc/about.php:86
+msgid ""
+"Loved Skincues Lite? Feel free to leave your feedback. Your opinion helps us "
+"reach more audiences!"
+msgstr ""
+
+#: inc/about.php:87
+msgid "Review"
+msgstr ""
+
+#: inc/block-patterns.php:19
+msgid "Pages"
+msgstr ""
+
+#: inc/block-styles.php:26
+msgid "No Padding"
+msgstr ""
+
+#: inc/block-styles.php:35
+msgid "Gap Zero"
+msgstr ""
+
+#: inc/block-styles.php:44
+msgid "Plain"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:386
+#: inc/class-tgm-plugin-activation.php:827
+#: inc/class-tgm-plugin-activation.php:2533
+#: inc/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:387
+#: inc/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:388
+msgid "This plugin was activated successfully:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:934
+#: inc/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1121
+#: inc/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/icon-function.php:38
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icon-function.php:43
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: patterns/404-header.php:23 patterns/hidden-404.php:14
+msgid "404 Nothing Found"
+msgstr ""
+
+#: patterns/404-header.php:26
+msgid "Oops! That page can't be found"
+msgstr ""
+
+#: patterns/about.php:17
+msgid "About"
+msgstr ""
+
+#: patterns/about.php:21
+msgid ""
+"A proper skincare routine can help prevent or address common skin concerns, "
+"such as dryness, acne, wrinkles, and sun damage."
+msgstr ""
+
+#: patterns/about.php:25
+msgid ""
+"Skincare products can vary widely in their ingredients and formulations, and "
+"it is important to choose products that are appropriate for your skin type "
+"and concerns."
+msgstr ""
+
+#: patterns/blog-header.php:23
+msgid "Recent From Blog"
+msgstr ""
+
+#: patterns/featured-content.php:15
+msgid "Featured Content"
+msgstr ""
+
+#: patterns/featured-content.php:33
+msgid "The process of forming a spray is known as atomization"
+msgstr ""
+
+#: patterns/featured-content.php:36
+msgid ""
+"A spray is a dynamic collection of drops dispersed in a gas. The process of "
+"forming a spray is known as atomization. A spray nozzle is the device used "
+"to generate a spray."
+msgstr ""
+
+#: patterns/featured-content.php:40 patterns/featured-content.php:67
+#: patterns/featured-content.php:94 patterns/hero-content.php:36
+msgid "Read More"
+msgstr ""
+
+#: patterns/featured-content.php:60
+msgid "Perfume is a mixture of fragrant essential oils or aroma compounds"
+msgstr ""
+
+#: patterns/featured-content.php:63
+msgid ""
+"Perfume is a mixture of fragrant essential oils or aroma compounds, "
+"fixatives and solvents, usually in liquid form, used to give the human body, "
+"animals an agreeable scent."
+msgstr ""
+
+#: patterns/featured-content.php:87
+msgid "Care for your skin with Bodycare is range of body lotion"
+msgstr ""
+
+#: patterns/featured-content.php:90
+msgid ""
+"Care for your skin with Bodycare is range of body lotion. We have a large "
+"selection to choose from, including popular brands such as Palmers, Dove and "
+"Garnier."
+msgstr ""
+
+#: patterns/footer-four-columns.php:13
+msgid "contact@company.com"
+msgstr ""
+
+#: patterns/footer-four-columns.php:24
+msgid "Newsletter"
+msgstr ""
+
+#: patterns/footer-four-columns.php:28
+msgid "Be the first to know about new collections and product launches."
+msgstr ""
+
+#: patterns/footer-four-columns.php:45
+msgid "Company"
+msgstr ""
+
+#: patterns/footer-four-columns.php:50
+msgid "Find a location nearest you."
+msgstr ""
+
+#: patterns/footer-four-columns.php:54
+msgid "See Our Stores"
+msgstr ""
+
+#: patterns/footer-four-columns.php:61
+msgid "+ 123 456 789"
+msgstr ""
+
+#: patterns/footer-four-columns.php:65
+msgid "info@company.com"
+msgstr ""
+
+#: patterns/footer-four-columns.php:77
+msgid "Services"
+msgstr ""
+
+#: patterns/footer-four-columns.php:89
+msgid "Social media"
+msgstr ""
+
+#: patterns/footer.php:25
+#, php-format
+msgctxt "1: Year, 2: Site Title with home URL, 3: Privacy Policy Link"
+msgid "Copyright %1$s %2$s %3$s"
+msgstr ""
+
+#: patterns/footer.php:27
+msgid "Y"
+msgstr ""
+
+#: patterns/header-media-primary.php:17
+msgid "Re-invent"
+msgstr ""
+
+#: patterns/header-media-primary.php:21
+msgid "Skin &amp; Cosmetics"
+msgstr ""
+
+#: patterns/header-media-primary.php:28
+msgid "Shop Now"
+msgstr ""
+
+#: patterns/hero-content.php:24
+msgid "Jewellery Store"
+msgstr ""
+
+#: patterns/hero-content.php:30
+msgid ""
+"As a jeweler, your goal is to increase the number of customers who buy from "
+"you, and perhaps to cultivate a long-term relationship in which they make "
+"multiple purchases from your store."
+msgstr ""
+
+#: patterns/hidden-404.php:17
+msgid "Oops! That page can't be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/hidden-blog.php:11
+msgid "Recent Blog"
+msgstr ""
+
+#: patterns/hidden-search.php:10
+msgid "Search"
+msgstr ""
+
+#: patterns/products-recent.php:16
+msgid "Our Featured"
+msgstr ""
+
+#: patterns/products-recent.php:16
+msgid "Products"
+msgstr ""
+
+#: patterns/products-recent.php:24
+msgid "Brighten your complexion, hydrate dry skin,"
+msgstr ""
+
+#: patterns/products-recent.php:24
+msgid "and combat acne with our best-selling products."
+msgstr ""
+
+#: patterns/recent-blog-posts.php:14
+msgid "Recent Blog Posts"
+msgstr ""
+
+#: patterns/services.php:16
+msgid "Skin"
+msgstr ""
+
+#: patterns/services.php:20
+msgid "Moisturize your"
+msgstr ""
+
+#: patterns/services.php:20
+msgid "skin"
+msgstr ""
+
+#: patterns/services.php:30
+msgid "Brows"
+msgstr ""
+
+#: patterns/services.php:34
+msgid "Shape up the"
+msgstr ""
+
+#: patterns/services.php:34
+msgid "brows"
+msgstr ""
+
+#: patterns/services.php:44
+msgid "Injectables"
+msgstr ""
+
+#: patterns/services.php:48
+msgid "Botox and"
+msgstr ""
+
+#: patterns/services.php:48
+msgid "Fillers"
+msgstr ""
+
+#: patterns/services.php:58
+msgid "Lash"
+msgstr ""
+
+#: patterns/services.php:62
+msgid "Extension and"
+msgstr ""
+
+#: patterns/services.php:62
+msgid "curler"
+msgstr ""
+
+#: patterns/shop-header.php:23
+msgid "The Shop"
+msgstr ""
+
+#: patterns/sidebar-products.php:14
+msgid "Search Products"
+msgstr ""
+
+#: patterns/sidebar-products.php:24 patterns/sidebar.php:27
+msgid "Categories"
+msgstr ""
+
+#: patterns/sidebar-products.php:34
+msgid "Filter by price"
+msgstr ""
+
+#: patterns/sidebar-products.php:50
+msgid "Filter by size"
+msgstr ""
+
+#: patterns/sidebar-products.php:66
+msgid "Filter by Color"
+msgstr ""
+
+#: patterns/sidebar.php:20
+msgid ""
+"Skincues Lite is a premium eCommerce WordPress block theme for full site "
+"editing. This theme is ideal for all online stores and businesses to display "
+"their products online."
+msgstr ""
+
+#: patterns/sidebar.php:35
+msgid "Recent Post"
+msgstr ""
+
+#: patterns/sidebar.php:43
+msgid "Tags"
+msgstr ""

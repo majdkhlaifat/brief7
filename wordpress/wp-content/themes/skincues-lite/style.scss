@@ -1,0 +1,40 @@
+/*
+Theme Name: Skincues Lite
+Theme URI: https://catchthemes.com/themes/skincues-lite
+Author: Catch Themes
+Author URI: https://catchthemes.com
+Description: Skincues Lite is a free elegant eCommerce WordPress block theme for full site editing. This theme is ideal for all types of online stores and eCommerce websites. This block-based theme comes with powerful eCommerce features and an amazing design. The demo of Skincues Lite has a minimal and classy design that will give your store and products a professional look and enhance your stores. This will help to attract visitors and boost the sales of your store. It is a highly flexible WordPress block theme that has a full set of eCommerce templates. The theme works perfectly with the eCommerce plugin “WooCommerce”. Therefore, there are 22+ block patterns, 16 Templates, and 9 Templates Parts available in this theme. Some of the block patterns are 404 Header, About, Archive Header, Blog Header, Featured Content, Footer Four Columns, Header Media Primary, Hero Content, Hidden Archive, Post Header, Search Header, Services, Shop Header, Sidebar, and many more. All the block patterns, Templates, and Template Parts are fully responsive, extremely fast loading, and highly customizable. Take your eCommerce business to the next level with Skincues Lite.
+Tested up to: 6.2
+Requires at least: 5.9
+Requires PHP: 5.6
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: skincues-lite
+Tags: e-commerce, blog, portfolio, one-column, two-columns, left-sidebar, right-sidebar, block-patterns, block-styles, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, full-site-editing, threaded-comments, wide-blocks, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Skincues Lite is based on Catch FSE WordPress Theme, 2012-2023 Catchthemes.com
+Catch FSE is distributed under the terms of the GNU GPL.
+*/
+
+
+/*--------------------------------------------------------------
+# Blocks
+--------------------------------------------------------------*/
+@import "sass/blocks/all-blocks";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "sass/patterns/all-patterns";
+
+/* --- Block Media Quries
+-------------------------------------------------------- */
+@import 'sass/media-query';
+
+/* --- Block Color
+-------------------------------------------------------- */
+@import 'sass/color';
